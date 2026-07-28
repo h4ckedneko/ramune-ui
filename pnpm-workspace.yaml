@@ -1,0 +1,8 @@
+packages:
+  - apps/*
+  - packages/*
+  - packages/themes/*
+
+allowBuilds:
+  dprint: true
+  lefthook: true
