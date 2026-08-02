@@ -18,7 +18,11 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
 
-  packages/core: {}
+  packages/foundation:
+    dependencies:
+      '@radix-ui/colors':
+        specifier: ^3.0.0
+        version: 3.0.0
 
 packages:
 
@@ -105,6 +109,9 @@ packages:
     resolution: {integrity: sha512-UTiDSShHbrkx+z719/MffgwGYD8PaypdVmG4vVJVjmF5Hoin6EfugHhSoBf8+G6U9rF+uDIIl0idZq+6Bifzwg==}
     cpu: [x64]
     os: [win32]
+
+  '@radix-ui/colors@3.0.0':
+    resolution: {integrity: sha512-FUOsGBkHrYJwCSEtWRCIfQbZG7q1e6DgxCIOe1SUQzDe/7rXXeA47s8yCn6fuTNQAj1Zq4oTFi9Yjp3wzElcxg==}
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
@@ -335,6 +342,8 @@ snapshots:
 
   '@dprint/win32-x64@0.55.2':
     optional: true
+
+  '@radix-ui/colors@3.0.0': {}
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     optional: true

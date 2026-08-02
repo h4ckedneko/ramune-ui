@@ -1,3 +1,3 @@
 # Ramune UI
 
-A ready-to-use design and component system for building [Lynx](https://lynxjs.org) applications.
+A ready-to-use design system for crafting clean and consistent [Lynx](https://lynxjs.org) applications.

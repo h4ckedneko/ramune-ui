@@ -1,0 +1,25 @@
+{
+  "name": "@ramune-ui/foundation",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Lyntor Paul Figueroa",
+  "keywords": [
+    "ramune-ui",
+    "design-system",
+    "design-tokens",
+    "css-variables"
+  ],
+  "homepage": "https://ramune.dev",
+  "bugs": "https://github.com/h4ckedneko/ramune-ui/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h4ckedneko/ramune-ui.git",
+    "directory": "packages/foundation"
+  },
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@radix-ui/colors": "^3.0.0"
+  }
+}
